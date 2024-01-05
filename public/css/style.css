@@ -120,3 +120,50 @@ footer p{
     line-height: 4rem;
     font-size: 1.3rem;
 }
+
+
+@media(max-width: 420px ) {
+    .navbar{
+        font-size: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .navbar img{
+        height: 25px;
+        width: 25px;
+        margin-right: 0.5rem;
+    }
+    .nabbar ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #logo{
+        margin-bottom: 1rem;
+    }
+
+    .main-body-container{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .content-container{
+        margin-left: 1rem;
+    }
+    .content-container .para1{
+        font-size: 15px;
+    }
+    .content-container .para2{
+        font-size: 20px;
+    }
+    .image-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .image-container img{
+        width: 410px;
+        height: 280px;
+        margin-top: 1rem;
+    }
+} 
