@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>headerLinks}}
+<link rel="stylesheet" href="css/weather.css">
+
+</head>
+<body>
+    <div class="main-container">
+        {{>navbar}}
+
+        <div class="main-body-container flex">
+            <form action="" class="temp_form flex">
+            <input type="text" id="cityName" placeholder="Enter your City Name" autocomplete="off"> 
+            <input type="submit" value="search" id="sumbit_btn">
+            </form>
+        <div class="formInfo flex">
+            <div class="toplayer flex">
+                <p id="day">Tuesday</p>
+                <p id="date">04 Jan</p>
+            </div>
+            <div class="output flex">
+
+            <p id="output" >Get Output Here</p>
+            <p id="temp"><span id="temp_span">0</span><sup>o</sup> C</p>
+            <p id="temp_mood"></p>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    {{>footer}}
+    <script src="js/main.js"></script>
+</body>
+</html>

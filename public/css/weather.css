@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex{
+    display: flex;
+}
+
+.navbar{
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1B2329;
+    color: whitesmoke;
+    padding: 0.7rem 7rem;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+}
+
+#logo img{
+    height: 50px;
+    width: 50px;
+    margin-right: 0.5rem;
+}
+
+.navbar ul{
+    list-style: none;
+}
+.navbar ul li{
+    padding: 0 30px;
+    cursor: pointer;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.navbar ul li a:hover{
+    color: #0097e6;
+
+}
+
+.main-body-container{
+    font-family: 'Poppins', sans-serif;
+    width: 100vw;
+    /* height: 80vh; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.temp_form{
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#cityName{
+    background: #1b2328;
+    color: whitesmoke;
+}
+form input::placeholder {
+    font-family: 'Poppins', sans-serif;
+
+    color: whitesmoke;
+}
+
+#cityName{
+    width: 600px;
+    padding: 1.1rem;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+}
+
+#sumbit_btn{
+    font-family: 'Poppins', sans-serif;
+    padding: 0.7rem 1rem;
+    border-radius: 25px;
+    background-color: #008DDB;
+    color: whitesmoke;
+    outline: none;
+    border: none;
+    position: absolute;
+    left: 86%;
+    bottom: 8%;
+    cursor: pointer;
+}
+
+.formInfo{
+    flex-direction: column;
+    /* border: 2px solid red; */
+    width: 450px;
+    margin-top: 2rem;
+    border-radius: 15px;
+    background-color: #2B2D3B;
+    border: 1px solid black;
+}
+
+.toplayer{
+    /* border: 2px solid black; */
+    /* border-radius: 15px; */
+    justify-content: space-between;
+    padding: 1rem;
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    /* border-radius: 15px; */
+    
+}
+.output{
+    /* border: 2px solid green; */
+    /* justify-content: space-between; */
+    background-color: #323442;
+    border-radius: 15px;
+    height: 200px;
+    color: whitesmoke;
+    flex-direction: column;
+    position: relative;
+}
+#output{
+    
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+}
+
+#temp{
+    margin: 1.5rem 1rem;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+#temp_mood img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 50px;
+    left: 21rem;
+}
+
+footer{
+    width: 100%;
+    background: #1B2329;
+    color: whitesmoke;
+    margin-top: auto;
+}
+
+footer p{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    text-align: center;
+    line-height: 4rem;
+    font-size: 1.3rem;
+}
